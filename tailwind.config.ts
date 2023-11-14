@@ -7,6 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // fontFamily: {
+      //   oswald: ["Oswald"],
+      //   tt: ["TT Lakes"],
+      // },
+      fontFamily: {
+        oswald: ["Oswald", "sans-serif"],
+        tt: ["TT Lakes", "sans"],
+      },
+      spacing: {
+        "13": "3.25rem",
+      },
+
       colors: {
         green: {
           50: "#30AF5B",
@@ -29,6 +41,7 @@ module.exports = {
           50: "#FEC601",
         },
       },
+
       backgroundImage: {},
       screens: {
         xs: "400px",

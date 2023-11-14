@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import container from "../assets/tv-background.svg";
+import container from "../public/assets/tv-background.svg";
 
 const MissionControl = () => {
   return (
