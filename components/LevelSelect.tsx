@@ -197,7 +197,7 @@ const LevelSelect = () => {
             </div>
             <div className="flex border-2 border-gray-500 rounded-lg px-2 py-2 m-4 relative hover:shadow-xl w-80"></div> */}
 
-            <div className="flex">
+            <div className="flex -translate-x-3">
               <div className=" rounded-lg px-2 py-2 m-4 relative w-80">
                 <h1 className="text-3xl">Decimus Dao Select</h1>
                 <br />

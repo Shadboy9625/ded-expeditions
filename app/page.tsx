@@ -37,6 +37,7 @@ export default function Home() {
         <div className="mt-[-9px]">
           <LevelSelect />
         </div>
+        <MissionControl />
       </div>
     </div>
   );
