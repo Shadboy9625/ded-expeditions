@@ -253,7 +253,7 @@ const MissionControl = () => {
             </div>
           </div>
         </section>
-        <section className="max-container padding-container flex flex-row w-full relative p-4 justify-between items-center translate-y-56">
+        <section className="max-container padding-container flex flex-row w-full relative p-4 justify-between items-center translate-y-72">
           <div className="flex flex-col items-center flex-grow justify-center space-y-0.5">
             <div className="single-circular-line w-full"></div>
             <div className="single-circular-line w-full"></div>
