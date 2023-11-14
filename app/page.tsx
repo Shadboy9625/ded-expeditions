@@ -25,14 +25,14 @@ export default function Home() {
     // </div>
 
     <div className="relative">
-      <Image
+      {/* <Image
         src={background}
         alt="background"
         width={1920}
         height={1920}
         layout="responsive"
-      />
-      <div className="absolute top-0 z-10 bottom-0 left-0 right-0 m-auto">
+      /> */}
+      <div className="absolute top-0 z-10 bottom-0 left-0 right-0 m-auto mt-[-475px]">
         <Navbar />
         <div className="mt-[-9px]">
           <LevelSelect />

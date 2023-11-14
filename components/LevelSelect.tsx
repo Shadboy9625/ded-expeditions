@@ -11,14 +11,14 @@ import mutant from "../public/assets/mutant.svg";
 const LevelSelect = () => {
   return (
     <div className="ml-24 z-5 translate-y-120 z-50">
-      <h1 className="ml-2 text-2xl font-tt">
+      <h1 className="ml-2 text-2xl font-tt translate-x-6">
         Expedition
         <br />
         level Select
       </h1>
       <br />
       <div className="flex space-x-14">
-        <div className="text-gray-900 bg-white border border-gray-300 font-medium rounded-lg text-sm px-5 py-5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 w-48 -translate-y-7">
+        <div className="text-gray-900 bg-white border border-gray-300 font-medium rounded-lg text-sm px-5 py-4 me-2 mb-3 dark:bg-gray-800 dark:text-white dark:border-gray-600 w-48 -translate-y-7">
           <div className="flex justify-between">
             <div>
               <button
@@ -91,7 +91,7 @@ const LevelSelect = () => {
             </div>
           </div>
         </div>
-        <div className="flex space-x-10 -translate-y-7">
+        <div className="flex space-x-10 -translate-y-10">
           {/* This is the same div as the big box and not the title of the box that's why it's not a separate component*/}
           <div>
             {/* This div is to group all the buttons together*/}
@@ -197,7 +197,7 @@ const LevelSelect = () => {
             </div>
             <div className="flex border-2 border-gray-500 rounded-lg px-2 py-2 m-4 relative hover:shadow-xl w-80"></div> */}
 
-            <div className="flex -translate-x-3">
+            <div className="flex -translate-x-16">
               <div className=" rounded-lg px-2 py-2 m-4 relative w-80">
                 <h1 className="text-3xl">Decimus Dao Select</h1>
                 <br />
