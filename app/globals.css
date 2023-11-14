@@ -5,8 +5,10 @@
 @tailwind utilities;
 
 @font-face {
-  src: url("../assets/fs-gravity.otf/fs-gravity.otf");
   font-family: "FS Gravity";
+  src: url("../assets/fs-gravity/fs-gravity.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .levelselect {
