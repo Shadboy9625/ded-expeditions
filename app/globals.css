@@ -6,9 +6,8 @@
 
 @font-face {
   font-family: "FS Gravity";
-  src: url("../assets/fs-gravity/fs-gravity.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  src: url("/assets/fs-gravity/fsgravity.woff") format("woff2"),
+    url("/assets/fs-gravity/fsgravity.woff2") format("woff");
 }
 
 .levelselect {
