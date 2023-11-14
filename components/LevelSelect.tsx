@@ -20,37 +20,37 @@ const LevelSelect = () => {
       <div className="flex space-x-14">
         <div className="text-gray-900 bg-white border border-gray-300 font-medium rounded-lg text-sm px-5 py-4 me-2 mb-3 dark:bg-gray-800 dark:text-white dark:border-gray-600 w-48 -translate-y-7">
           <div className="flex justify-between">
-            <div>
+            <div className="levels">
               <button
                 type="button"
-                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white font-medium rounded-md text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
+                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white  rounded-md text-lg px-7 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
               >
                 Level 4
               </button>
               <br />
               <button
                 type="button"
-                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white font-medium rounded-md text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
+                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white  rounded-md text-lg px-7 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
               >
                 Level 5
               </button>
               <br />
               <button
                 type="button"
-                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white font-medium rounded-md text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
+                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white  rounded-md text-lg px-7 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
               >
                 Level 6
               </button>
               <br />
               <button
                 type="button"
-                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white font-medium rounded-md text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
+                className="text-gray-900 bg-white border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-white  rounded-md text-lg px-7 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-white dark:hover:bg-gray-700 dark:hover:border-white dark:focus:ring-gray-700"
               >
                 Level 7
               </button>
               <br />
-              <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-[#5CE3EB] rounded-lg group bg-gradient-to-br from-[#5CE3EB] to-blue-500 hover:bg-gray-100 hover:text-[#5CE3EB] dark:text-[#5CE3EB] focus:ring-4 focus:outline-none focus:ring-gray-700 dark:focus:ring-cyan-800">
-                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-lg font-medium text-[#5CE3EB] rounded-lg group bg-gradient-to-br from-[#5CE3EB] to-blue-500 hover:bg-gray-100 hover:text-[#5CE3EB] dark:text-[#5CE3EB] focus:ring-4 focus:outline-none focus:ring-gray-700 dark:focus:ring-cyan-800">
+                <span className="relative px-7 py-1.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   Level 8
                 </span>
               </button>

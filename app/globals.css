@@ -4,11 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "TT Lakes";
-  src: url("../public/fonts/TT-Lakes-Neue-Trial-Extended-Bold-BF641a4c380420e.ttf");
-}
-
 .levelselect {
   font-family: "Oswald";
 }
@@ -74,8 +69,12 @@ body {
 }
 
 @font-face {
-  sec: url("../public/fonts/fs-gravity.otf/fs-gravity.otf");
+  sec: url("../assets/fs-gravity.otf/fs-gravity.otf");
   font-family: "FS Gravity";
+}
+
+.levels {
+  font-family: "FS Gravity", "Inter", sans-serif;
 }
 
 .custom-translate {
