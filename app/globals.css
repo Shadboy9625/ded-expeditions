@@ -9,8 +9,8 @@
   src: url("../public/fonts/TT-Lakes-Neue-Trial-Extended-Bold-BF641a4c380420e.ttf");
 }
 
-.missioncontrol {
-  font-family: "FS Gravity", "Inter", sans-serif;
+.levelselect {
+  font-family: "Oswald";
 }
 
 :root {
@@ -37,6 +37,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.missioncontrol {
+  margin: 0;
+  font-family: "FS Gravity", "Inter", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
 .single-dot-line {
   height: 5px;
   background-image: linear-gradient(90deg, #5ce3eb 50%, transparent 50%);
@@ -45,6 +51,10 @@ body {
 
 .translate-y-120 {
   transform: translateY(28rem);
+}
+
+.translate-y-130 {
+  transform: translateY(30rem);
 }
 
 .text-4-5xl {

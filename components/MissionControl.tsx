@@ -17,7 +17,7 @@ import bg from "../assets/bg.svg";
 
 const MissionControl = () => {
   return (
-    <div className="relative w-full missioncontrol z-50">
+    <div className="missioncontrol">
       <div className="absolute -z-10 w-full">
         <Image
           src={bg}
@@ -64,13 +64,13 @@ const MissionControl = () => {
           />
         </section>
         <div className="flex flex-row justify-center custom-translate">
-          <button className="z-50 relative">
+          <button className="z-30 relative">
             <Image
               src={nextLevel}
               alt="nextLevel"
               height={10}
               width={140}
-              className="z-50 relative"
+              className="z-30 relative"
             />
           </button>
           <button className="z-30">
@@ -253,7 +253,7 @@ const MissionControl = () => {
             </div>
           </div>
         </section>
-        <section className="max-container padding-container flex flex-row w-full relative p-4 justify-between items-center translate-y-72">
+        <section className="max-container padding-container flex flex-row w-full relative p-4 justify-between items-center translate-y-56">
           <div className="flex flex-col items-center flex-grow justify-center space-y-0.5">
             <div className="single-circular-line w-full"></div>
             <div className="single-circular-line w-full"></div>

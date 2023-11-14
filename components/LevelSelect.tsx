@@ -10,7 +10,7 @@ import mutant from "../public/assets/mutant.svg";
 
 const LevelSelect = () => {
   return (
-    <div className="ml-24 z-5">
+    <div className="ml-24 z-5 translate-y-120 z-50">
       <h1 className="ml-2 text-2xl font-tt">
         Expedition
         <br />
@@ -18,7 +18,7 @@ const LevelSelect = () => {
       </h1>
       <br />
       <div className="flex space-x-14">
-        <div className="text-gray-900 bg-white border border-gray-300 font-medium rounded-lg text-sm px-5 py-5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 w-48">
+        <div className="text-gray-900 bg-white border border-gray-300 font-medium rounded-lg text-sm px-5 py-5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 w-48 -translate-y-7">
           <div className="flex justify-between">
             <div>
               <button
@@ -91,7 +91,7 @@ const LevelSelect = () => {
             </div>
           </div>
         </div>
-        <div className="flex space-x-10">
+        <div className="flex space-x-10 -translate-y-7">
           {/* This is the same div as the big box and not the title of the box that's why it's not a separate component*/}
           <div>
             {/* This div is to group all the buttons together*/}
@@ -148,8 +148,8 @@ const LevelSelect = () => {
               <h1>= = = = = = = = = =</h1>
             </div>
           </div>
-          <div>
-            <div className=" flex items-center space-x-10 mt-[-12px] ">
+          <div className="translate-x-60 translate-y-5">
+            <div className=" flex items-center space-x-2 mt-[-12px] ">
               <button>
                 <Image
                   src={Marauder}
