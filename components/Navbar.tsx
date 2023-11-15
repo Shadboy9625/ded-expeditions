@@ -5,12 +5,14 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <main className="flex justify-between items-center mt-0 ml-0 translate-y-130">
-      <Image
-        src={logo}
-        alt="Description of the image"
-        width={100}
-        height={300}
-      />
+      <div className="translate-x-3 translate-y-2">
+        <Image
+          src={logo}
+          alt="Description of the image"
+          width={100}
+          height={300}
+        />
+      </div>
       <div className="flex flex-end justify-end space-x-10 w-full">
         <div className="flex space-x-8 my-4 font-oswald text-xl">
           <h2 className="text-white">Website</h2>

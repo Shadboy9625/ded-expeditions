@@ -32,7 +32,7 @@ export default function Home() {
         height={1920}
         layout="responsive"
       /> */}
-      <div className="absolute top-0 z-10 bottom-0 left-0 right-0 m-auto mt-[-475px]">
+      <div className="absolute top-0 z-10 bottom-0 left-0 right-0 m-auto mt-[-500px]">
         <Navbar />
         <div className="mt-[-9px]">
           <LevelSelect />

@@ -14,10 +14,16 @@ import selectLevel from "../assets/select-button.svg";
 import endEarly from "../assets/end-early.svg";
 import starLeft from "../assets/star-left.svg";
 import bg from "../assets/bg.svg";
+import localFont from "next/font/local";
+
+const fsForest = localFont({
+  src: "../static-fonts/fs-gravity.ttf",
+  display: "swap",
+});
 
 const MissionControl = () => {
   return (
-    <div className="missioncontrol">
+    <div className={fsForest.className}>
       <div className="absolute -z-10 w-full">
         <Image
           src={bg}
