@@ -40,16 +40,16 @@ const MissionControl = () => {
             alt="pattern"
             width={150}
             height={150}
-            className="mt-16 flex-shrink-0"
+            className="mt-16 flex-shrink-0 translate-x-3"
           />
           <Image
             src={starLeft}
             alt="star"
             width={120}
             height={120}
-            className="flex-shrink-0 z-20 -translate-x-2 ml-2"
+            className="flex-shrink-0 z-20 translate-x-1 ml-2"
           />
-          <div className="flex flex-col items-center -translate-y-2">
+          <div className="flex flex-col items-center translate-x-3 -translate-y-2">
             <h1 className="text-[#5CE3EB] text-5xl">
               Mission Control - Level 8
             </h1>
@@ -59,18 +59,18 @@ const MissionControl = () => {
             alt="star"
             width={120}
             height={120}
-            className="flex-shrink-0 z-20 translate-x-2 mr-2"
+            className="flex-shrink-0 z-20 translate-x-5 mr-2"
           />
           <Image
             src={pattern}
             alt="pattern"
             width={150}
             height={150}
-            className="mt-16 flex-shrink-0"
+            className="mt-16 flex-shrink-0 translate-x-3"
           />
         </section>
         <div className="flex flex-row justify-center custom-translate">
-          <button className="z-30 relative">
+          <button className="z-30 translate-x-6">
             <Image
               src={nextLevel}
               alt="nextLevel"
@@ -79,7 +79,7 @@ const MissionControl = () => {
               className="z-30 relative"
             />
           </button>
-          <button className="z-30">
+          <button className="z-30 translate-x-6">
             <Image
               src={selectLevel}
               alt="nextLevel"
@@ -88,18 +88,18 @@ const MissionControl = () => {
               className="z-30"
             />
           </button>
-          <button className="z-30">
+          <button className="z-30 translate-x-6">
             <Image
               src={prepareExpedtion}
               alt="nextLevel"
               height={50}
-              width={250}
+              width={220}
               className="z-30"
             />
           </button>
         </div>
         <section className="max-container padding-container flex flex-row relative p-4 justify-between items-center -translate-y-20">
-          <div className="flex justify-between w-full gap-5">
+          <div className="flex justify-between w-full gap-5 translate-x-3">
             <div className=" p-1 flex flex-col items-center justify-center">
               <div className="w-full single-dot-line mb-2"></div>
               <div className="text-white flex justify-between w-full p-1">

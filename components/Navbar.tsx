@@ -14,7 +14,7 @@ const Navbar = () => {
         />
       </div>
       <div className="flex flex-end justify-end space-x-10 w-full">
-        <div className="flex space-x-8 my-4 font-oswald text-xl">
+        <div className="flex space-x-8 my-4 font-oswald text-xl translate-y-0.5 font-bold">
           <h2 className="text-white">Website</h2>
           <h2 className="text-white">Barracks</h2>
           <h2 className="text-white">Expeditions</h2>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <button
           type="button"
-          className="text-white bg-gradient-to-b from-[#5CE3EB] via-[#0C3B3B] to-[#5CE3EB] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-cyan-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-2xl text-sm px-5 py-2.5 text-center"
+          className="text-white mt-3 -translate-y-0.5 bg-gradient-to-b from-[#5CE3EB] via-[#0C3B3B] to-[#5CE3EB] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-cyan-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-xl text-sm px-5 text-center"
         >
           Connect Wallet
         </button>
